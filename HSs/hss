@@ -1,0 +1,118 @@
+Funcion de transferencia H(s) del filtro
+
+                                                                      
+                              2.409D+16                               
+   -----------------------------------------------------------------  
+                                      2           3            4   5  
+   2.409D+16 + 4.126D+13s + 3.533D+10s + 18696246s + 6114.9401s + s   
+
+ POLOS DEL SISTEMA
+
+  -583.92482 + 1797.1358i
+  -583.92482 - 1797.1358i
+  -1889.6204  
+  -1528.735 + 1110.691i
+  -1528.735 - 1110.691i
+
+ The coeffs are:
+
+
+         column 1 to 4
+
+                           2                           2                                        2
+   3570665.3 +1167.8496s +s    3570665.3 +1167.8496s +s    1889.6204 +s   3570665.3 +3057.47s +s 
+
+         column 5
+
+                         2
+   3570665.3 +3057.47s +s 
+
+
+
+
+
+
+
+
+Funcion de transferencia H(s) del filtro
+
+                                    5                                  
+                                   s                                   
+   ------------------------------------------------------------------  
+                                      2            3            4   5  
+   3.169D+23 + 2.046D+19s + 6.601D+14s + 1.316D+10s + 162260.96s + s   
+
+ POLOS DEL SISTEMA
+
+  -15494.543 + 47687.3i
+  -15494.543 - 47687.3i
+  -50141.395  
+  -40565.24 + 29472.372i
+  -40565.24 - 29472.372i
+
+ The coeffs are:
+
+
+         column 1 to 4
+
+                           2                           2                                        2
+   3570665.3 +1167.8496s +s    3570665.3 +1167.8496s +s    1889.6204 +s   3570665.3 +3057.47s +s 
+
+         column 5
+
+                         2
+   3570665.3 +3057.47s +s 
+
+
+
+
+
+
+ 
+ Funcion de transferencia H(s) del filtro
+
+                                          2            4            6            8   10                   
+                    7.636D+39 + 4.030D+32s + 8.506D+24s + 8.977D+16s + 4.737D+08s + s                     
+   -----------------------------------------------------------------------------------------------------  
+                                      2            3            4            5            6            7  
+   7.636D+39 + 1.112D+37s + 8.493D+33s + 4.108D+30s + 1.276D+27s + 2.249D+23s + 1.347D+19s + 4.576D+14s   
+                8            9   10                                                                       
+    + 9.985D+09s + 137921.82s + s        
+
+T(s) = \frac{7.636E39 + 4.030E32s^{2} + 8.506E24s^{4} + 8.977E16s^{6} + 4.737E8s^{8} + s^{10}}{7.636E39 + 1.112E37s + 8.493E33s^{2} + 4.108E30s^{3} + 1.276E27s^{4} + 2.249E23s^{5} + 1.347E19s^{6} + 4.576E14s^{7} + 9.985E9s^{8} + 137921.82S^{9} + s^{10}}                                                                 
+
+ POLOS DEL SISTEMA
+
+  -12566.303 + 42581.064i
+  -12566.303 - 42581.064i
+  -32730.147 + 26466.884i
+  -32730.147 - 26466.884i
+  -40267.198  
+  -604.05836 + 2046.8587i
+  -604.05836 - 2046.8587i
+  -1750.3078 + 1415.3677i
+  -1750.3078 - 1415.3677i
+  -2352.9872  
+
+ The coeffs are:
+
+
+         column 1 to 4
+
+                           2                           2                                        2
+   3570665.3 +1167.8496s +s    3570665.3 +1167.8496s +s    1889.6204 +s   3570665.3 +3057.47s +s 
+
+         column 5
+
+                         2
+   3570665.3 +3057.47s +s 
+
+
+intro:
+
+
+El filtro activo elimina banda o rechaza banda se presenta en este trabajo. La función de este filtro es eliminar frecuencias en la señal
+entre las frecuencias de corte superior e inferior de las especificaciones de funcionamiento 
+Este proyecto fue implementado utilizando dos filtros, un pasa alto y un pasa bajo. Las señales de salida de ambos circuitos se conectan a un circuito sumador para obtener el filtro rechaza banda 
+
+
